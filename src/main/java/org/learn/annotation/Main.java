@@ -1,10 +1,7 @@
-package org.learn;
+package org.learn.annotation;
 
 
-import org.learn.CustomAnnotations.CustomAnnotation1;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.lang.reflect.Field;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
