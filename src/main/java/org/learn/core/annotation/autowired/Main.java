@@ -1,4 +1,4 @@
-package org.learn.annotation.autowired;
+package org.learn.core.annotation.autowired;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

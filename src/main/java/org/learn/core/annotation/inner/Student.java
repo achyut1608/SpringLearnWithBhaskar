@@ -1,4 +1,4 @@
-package org.learn.annotation.inner;
+package org.learn.core.annotation.inner;
 
 import org.springframework.stereotype.Component;
 

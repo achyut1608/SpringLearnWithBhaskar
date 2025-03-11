@@ -1,4 +1,4 @@
-package org.learn.annotation;
+package org.learn.core.annotation;
 
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("org.learn.annotation");
-        org.learn.annotation.inner.Student s = context.getBean("innerStudent",org.learn.annotation.inner.Student.class);
-        org.learn.annotation.Student outerStudent = context.getBean("student", org.learn.annotation.Student.class);
+        org.learn.core.annotation.inner.Student s = context.getBean("innerStudent", org.learn.core.annotation.inner.Student.class);
+        Student outerStudent = context.getBean("student", Student.class);
 
         s.setId(1);
         s.setName("Test");

@@ -1,8 +1,10 @@
-package org.learn.xml;
+package org.learn.core.xml;
 
-public class Address {
-    String city;
-    String country;
+public class Address1 {
+
+    private String city;
+    private String country;
+
     public String getCity() {
         return city;
     }
@@ -26,8 +28,6 @@ public class Address {
                 ", country='" + country + '\'' +
                 '}';
     }
-
-
 
 
 }

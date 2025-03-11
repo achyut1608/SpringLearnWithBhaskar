@@ -1,8 +1,5 @@
-package org.learn.xml;
+package org.learn.core.xml;
 
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
@@ -12,7 +9,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(" bean-factory-demo.xml");
         //ApplicationContext factory = new ClassPathXmlApplicationContext("bean-factory-demo.xml");
-        org.learn.xml.Student student =(org.learn.xml.Student) applicationContext.getBean("student123");
+        Student student =(Student) applicationContext.getBean("student123");
         Student student1 =applicationContext.getBean("student123",Student.class);
         System.out.println("Student1 : "+student1);
         System.out.println("Stucent.hashcode : " + student.hashCode());

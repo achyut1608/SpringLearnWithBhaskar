@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
 
-    <bean id="student123" class="org.learn.xml.Student">
+    <bean id="student123" class="org.learn.core.xml.Student">
         <property name="name" value="Panjree"/>
         <property name="age">
             <value>31</value>
@@ -14,12 +14,9 @@
     </bean>
 
 
-    <bean id="address" class="org.learn.xml.Address">
-        <property name="city">
-            <value>Dwarka</value>
-        </property>
-        <property name="country">
-            <value>India</value>
-        </property>
+    <bean id="address" class="org.learn.core.xml.Address1">
+        <property name="city" value="CityName1"/>
+        <property name="country" value="CountryName1"/>
+
     </bean>
 </beans>
