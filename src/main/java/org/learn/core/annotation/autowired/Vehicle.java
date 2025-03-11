@@ -1,4 +1,4 @@
-package org.learn.annotation.autowired;
+package org.learn.core.annotation.autowired;
 
 public interface Vehicle {
 
